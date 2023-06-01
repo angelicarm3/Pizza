@@ -1,0 +1,114 @@
+body {
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    width: 1024px;
+}
+header {
+    background-color: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    color: #F3F3F3;
+    display: flex;
+    font-size: 16px;
+    height: 100px;
+    padding: 10px 20px;
+    width: 1024px;
+}
+.logo_header {
+    height: 80px;
+    width: 234px;
+}
+.nav_bar {
+    align-self: center;
+    padding-left: 466px;
+    width: 324px;
+}
+.nav_menu {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+main {    
+    box-sizing: border-box;
+    display: flex;    
+    justify-content: space-between;
+    padding: 35px 19px;
+}
+.offer {
+    background-image: url(../img/delivery.jpg);
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 350px;
+    width: 490px;
+}
+h2 {
+    color: #FC200C;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px;
+}
+.white_enphasis {
+    color: #FFFFFF;
+}
+.top_5 {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    height: 350px;
+    width: 490px;
+}
+.title_top_5 {
+    text-align: center;
+}
+.content_top_5 {
+    display: flex;
+    align-items: center;
+}
+ol {    
+    font-weight: 700;
+font-size: 16px;
+    padding-left: 70px;
+}
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+li {
+    margin: 5px;
+}
+.img_top_5 {
+    height: 129px;
+    margin-left: 90px;
+    margin-right: 74px;
+    width: 92px;
+}
+footer {
+    align-items: center;
+    background-color: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    color: #F3F3F3;
+    display: flex;
+    height: 150px;
+    font-size: 16px;
+    padding: 20px;
+    padding-right: 42px;
+    width: 1024px;
+}
+.footer_menu {
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.logo_footer {
+    height: 80px;
+    margin-left: 672px;
+    width: 212px;
+}
